@@ -22,8 +22,10 @@ if (!is_null($events['events'])) {
 				'text' => "I don' understand"
 			];
 			if ($text == "hi"){
-			'type' => 'text',
-				'text' => "hello :)"
+			$messages = [	
+				'type' => 'text',
+				'text' => "hello "
+			];
 			}
 
 			// Make a POST Request to Messaging API to reply to sender
